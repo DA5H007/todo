@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0">
+    <link href="/output.css" rel="stylesheet">
+</head>
+
+<!-- BODY -->
+<body class="min-h-screen text-center p-5 py-12 bg-gradient-to-br from-slate-700 to-slate-900 
+    text-slate-50">
+    <h1 class="text-slate-300 text-4xl md:text-6xl my-12">TODO LIST</h1>
+    <!-- INPUTTING TODO  -->
+    <form autocomplete="off" id="todo-form" class="my-10">
+        <input type="text" id="todo-input" placeholder="Enter Item" class="h-10 mr-3 w-3/5 xl:w-1/2 py-1 
+            px-4 my-1 outline-0 rounded-3xl bg-slate-600 placeholder:text-slate-300" />
+        <button type="submit" id="todo-add" class="bg-slate-600 hover:bg-slate-400 
+            hover:text-slate-900 duration-500 rounded-full w-20 h-10 text-sm">
+            Add Task
+        </button>
+    </form>
+    <!-- DISPLAYING TODO  -->
+    <div id="tasks" class="">
+        <!-- JS WILL CREATE ELEMENTS HERE  -->
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
